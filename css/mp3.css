@@ -1,0 +1,45 @@
+section{ width: 100%; min-width: 1280px; overflow: hidden; }
+
+.titlewrap{ width: 100%; height: 500px; min-width: 1280px;  }
+
+.sub{ width: 100%; height: 400px; min-width: 1280px; position: relative;}
+
+
+.subpagenav  { width: 1280px; height: 40px; margin:0 auto; background-color: #333; position: absolute; top: 400px; left: calc(50% - 640px);  }
+
+.subpagenav ul { width: 600px; margin: auto; }
+.nav02 ul { width: 400px; margin: auto; }
+.nav04 ul { width: 800px; margin: auto; }
+
+.subpagenav li { float: left; width: 200px; height: 40px; line-height: 40px; text-align: center;}
+.subpagenav li a { color:#fff; display: block; width: 100%; height: 100%; font-size: 12px; border-right:1px solid #fff; box-sizing: border-box;}
+.subpagenav li a.first { border-left:1px solid #fff;}
+.subpagenav li a.now { background-color: #ededed; color: #333;}
+
+.subpagenav li a:hover { background-color: #999; }
+
+.h3title { width: 1280px; height: 40px; margin:0 auto; padding-top:70px; }
+.h3title h3 { text-align: center; font-size: 25px; padding-bottom: 10px; }
+.underbar { width: 200px; border-bottom: 1px solid #333; margin: 0 auto; }
+
+.invigator ul{ width: 1280px; text-align: center; height: 40px; margin: 0 auto;  margin-top: 10px; margin-bottom: 50px;}
+.invigator ul li{ display: inline-block; height: 40px;  font-size: 12px; line-height: 40px; text-align: center;}
+.invigator ul li.last{ margin-right: 0px; }
+.invigator ul li:after { content: '>'; padding:0 5px; font-size: 10px; font-family: 'Nanum Gothic', sans-serif; line-height: 38px; }
+.invigator ul li.last:after{ content: ''; padding: 0; }
+.invigator img { width: 12px; }
+
+.productslider { width: 1980px; height: 400px; margin: 0 auto; margin-bottom: 50px; }
+.productslider .flexslider { width: 100%; height: 400px; }
+.productslider .flexslider .slides > li { height: 400px; background-repeat: no-repeat; background-position: center center; }
+
+.productslider .flexslider .slides > .pro01 { background-image: url(../images/product/pslider_img_01.jpg); background-color: #000; }
+.productslider .flexslider .slides > .pro02 { background-image: url(../images/product/pslider_img_02.jpg); background-color: #fff;}
+.productslider .flexslider .slides > .pro03 { background-image: url(../images/product/pslider_img_03.jpg); background-color: #fff;}
+
+.top { width: 1280px; margin: 0 auto; overflow: hidden;}
+
+
+.top h3 { width: 1220px; height: 50px; font-size: 20px; margin-left: 30px; margin-right: 30px; line-height: 50px; margin-bottom: 20px; }
+
+.bwrap  { float: left; width: 400px; height: 400px; background-color: maroon; border: 1px solid #ccc; margin-left: 100px;}

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ultimate hi-fi audio - Ari</title>
+    <link rel="shortcut icon" href="images/common/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="images/common/favicon_ios.png">
+    <link rel="icon" sizes="192x192" type="image/png" href="images/common/favicon_android.png">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/ui.totop.css" rel="stylesheet">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/jquery.ui.totop.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/slick.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="sitemap">
+        <h4>
+            사이트맵
+        </h4>
+        <ul class="first">
+            <li class="title">
+                <h5>회사소개</h5>
+            </li>
+            <li><a href="ari/intro.html">Ari 소개</a></li>
+            <li><a href="ari/identity.html">BI/CI</a></li>
+            <li><a href="ari/map.html">오시는 길</a></li>
+        </ul>
+        <ul>
+            <li class="title">
+                <h5>제품소개</h5>
+            </li>
+            <li><a href="product/mp3.html">Music Player</a></li>
+            <li><a href="product/recoder.html">Recoder</a></li>
+            <li><a href="product/audio.html">Audio</a></li>
+            <li><a href="product/dicple.html">전자사전</a></li>
+        </ul>
+        <ul>
+            <li class="title">
+                <h5>커뮤니티</h5>
+            </li>
+            <li><a href="community/news.html">새소식</a></li>
+            <li><a href="community/notice.html">공지사항</a></li>
+        </ul>
+        <ul>
+            <li class="title">
+                <h5>고객센터</h5>
+            </li>
+            <li><a href="customer/answer.html">FAQ</a></li>
+            <li><a href="customer/service.html">A/S 안내</a></li>
+            <li><a href="tNav/login.html" class="loginerror">제품 등록</a></li>
+        </ul>
+        <ul>
+            <li class="title">
+                <h5>이벤트</h5>
+            </li>
+            <li><a href="event/now.html">현재 이벤트</a></li>
+            <li><a href="event/late.html">지난 이벤트</a></li>
+        </ul>
+        <ul>
+            <li><a href="/tNav/login.html">로그인</a></li>
+            <li><a href="/tNav/join.html">회원가입</a></li>
+            <li class="last"><a href="https://shop.iriver.co.kr/">E - Shop</a></li>
+        </ul>
+        <a href="#exit" class="exit"></a>
+
+    </div>
+    <div class="blackBg"></div>
+    <div class="popup">
+        <div class="pTop">
+            <div class="pofo">
+                본 사이트는 상업적 목적이 아닌 <span>개인 포트폴리오 용도</span>로 만들어 졌습니다. <br>
+                홈페이지의 일부 내용과 이미지 등은 <span>그 출처가 따로 있음</span>을 밝힙니다. <br>
+                본 사이트는 <span>HTML5와 CSS3를 기준</span>으로 하여 크롬, 사파리, 오페라, 파이어폭스, <br>
+                IE10이상의 브라우저에 맞춘 홈페이지입니다.
+            </div>
+            <div class="qr">
+                <span>모바일페이지</span>로 이동하시려면 <br>
+                오른쪽 QR코드를 스캔해주세요.
+                <img src="images/main/popup_qrcode_01.gif" alt="모바일페이지 QR코드">
+            </div>
+        </div>
+        <div class="pBottom">
+            <form action="#">
+                <fieldset>
+                    <legend>오늘 하루 보지않기 폼</legend>
+                    <input type="checkbox" id="chkBox">
+                    <label for="chkBox">오늘 하루 보이지 않기</label>
+                    <a href="#closepop" title="팝업창 닫기">[CLOSE]</a>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <header>
+        <div class="hWrap">
+            <div class="topLine">
+                <div class="hTop">
+                    <ul>
+                        <li><a href="#">KO</a></li>
+                        <li class="deco">·</li>
+                        <li><a href="#">EN</a></li>
+                        <li class="deco">|</li>
+                        <li class="last"><a href="https://shop.iriver.co.kr/">shop</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subBg"></div>
+            <div class="hBottom">
+                <h1><a href="index.html"><img src="images/common/header_logo.png" alt="메인로고"></a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="ari/intro.html" class="mainNav">회사소개</a>
+                            <ul class="subNav">
+                                <li><a href="ari/intro.html">Ari 소개</a></li>
+                                <li><a href="ari/identity.html">BI/CI</a></li>
+                                <li><a href="ari/map.html">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="product/mp3.html" class="mainNav">제품소개</a>
+                            <ul class="subNav">
+                                <li><a href="product/mp3.html">Music Player</a></li>
+                                <li><a href="product/recorder.html">Recorder</a></li>
+                                <li><a href="product/audio.html">Audio</a></li>
+                                <li><a href="product/dicple.html">전자사전</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="community/news.html" class="mainNav">커뮤니티</a>
+                            <ul class="subNav">
+                                <li><a href="community/news.html">새소식</a></li>
+                                <li><a href="community/notice.html">공지사항</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="customer/answer.html" class="mainNav">고객센터</a>
+                            <ul class="subNav">
+                                <li><a href="customer/answer.html">FAQ</a></li>
+                                <li><a href="customer/service.html">A/S 안내</a></li>
+                                <li><a href="tNav/login.html" class="loginerror">제품 등록</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="event/now.html" class="mainNav">이벤트</a>
+                            <ul class="subNav">
+                                <li><a href="event/now.html">현재 이벤트</a></li>
+                                <li><a href="event/late.html">지난 이벤트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="login">
+                    <ul>
+                        <li class="first"><a href="tNav/login.html">로그인</a></li>
+                        <li class="deco">|</li>
+                        <li><a href="tNav/join.html">회원가입</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="mSlider">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li class="ms01">
+                        <div class="textwrap">
+                            <p>
+                                Ultra Portable &amp; Ultra Performance <br>
+                                AUDIO POTABLE-PLAYER
+                            </p>
+                            <h3>SP 1000M</h3>
+                            <a href="product/mp3.html">자세히보기</a>
+                        </div>
+                        <img src="images/main/mslider_product_01.png" alt="SP 1000M">
+                    </li>
+                    <li class="ms02">
+
+                    </li>
+                    <li class="ms03">
+                        <h3>A C R O &nbsp;&nbsp; L 1 0 0 0</h3>
+                        <p> 2019. 09. 30 LAUNCH </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="primium">
+            <h2>THE <span>PRIMIUM</span></h2>
+            <div class="line"></div>
+            <p class="subtext">더 특별한 , 그래서 더 가치 있는 프리미엄 제품 입니다.</p>
+            <div class="priWrap">
+                <div class="priPro">
+                    <ul>
+                        <li class="pri01">
+                            <img src="images/main/priProduct_img_02.png" alt="프리미엄제품02">
+                            <h5>THE RADICALLY DIFFERENT SOUND </h5>
+                            <h4>SP-100</h4>
+                            <p>
+                                Ari에서 선보이는 프리미엄 라인, <br>
+                                그첫번째 모델인 SP-100 입니다. <br>
+                                제품을 잡는 그 순간부터 진정한 프리미엄 하이파이에 <br>
+                                대한 가치를 느끼실 수 있도록 만든 제품입니다.
+                            </p>
+                            <div class="viewmore">
+                                <a href="product/mp3.html">자세히보기&nbsp;&nbsp; →</a>
+                            </div>
+                        </li>
+                        <li class="pri02">
+                            <img src="images/main/priProduct_img_01.png" alt="프리미엄제품01">
+                            <h5>THE PRIMUM AUDIO </h5>
+                            <h4>IA 1000</h4>
+                            <p>다이나믹한 사운드로 공간을 채우는 고출력 오디오 <br>
+                                IA1000은 파워풀한 출력으로 홈오디오에서 느껴보지 못했던 <br>
+                                강렬함을 전달합니다. <br>
+                                IA1000과 함께 음악으로 채워가는 하루를 만들어보세요.
+                            </p>
+                            <div class="viewmore">
+                                <a href="product/audio.html">자세히보기&nbsp;&nbsp; →</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="priBtn">
+                    <ul>
+                        <li>
+                            <a href="#2">
+                                RADICALLY <span> DIFFERENT</span>
+                                <p>MUSIC PLAYER</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#1">
+
+                                THE <span>PRIMIUM</span> AUDIO <br>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="proWrap">
+                <ul>
+                    <li><a class="p01" href="product/mp3.html">Player</a></li>
+                    <li><a class="p02" href="product/recorder.html">Recoder</a></li>
+                    <li><a class="p03" href="product/audio.html">Audio</a></li>
+                    <li class="last"><a class="p04" href="product/dicple.html">Dictionary</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sns">
+            <h2><span>SNS</span> NOW</h2>
+            <div class="line"></div>
+            <p class="subtext">새로운 소셜 네트워크 소식을 만나보세요.</p>
+            <div class="snsWrap">
+                <ul>
+                    <li class="sns01">
+                        <a href="#">
+                            <img src="images/main/sns_bg_01.jpg" alt="">
+                            <div class="snsInfo s01">
+                                <h5>INSTAGRAM</h5>
+                                <p>
+                                    2019 뮌헨에서 발표한 <br>
+                                    신형 하이엔드 AK T9iE를 <br>
+                                    자세히 알아봅시다.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns02">
+                        <a href="#">
+                            <img src="images/main/sns_bg_02.jpg" alt="">
+                            <div class="snsInfo s02">
+                                <h5>FACEBOOK</h5>
+                                <p>
+                                    새로운 뮤직플레이어<br>
+                                    KANN CUBE <br>
+                                    2019.06.25 출시 !
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns03">
+                        <a href="#">
+                            <img src="images/main/sns_bg_03.jpg" alt="">
+                            <div class="snsInfo s03">
+                                <h5>TWITTER</h5>
+                                <p>
+                                    Hi-Fi System - SP1000 <br>
+                                    아름답고 휴대하기 편한 <br>
+                                    4.1 인치 뮤직플레이어 ...
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns04">
+                        <a href="#">
+                            <img src="images/main/sns_bg_04.jpg" alt="">
+                            <div class="snsInfo s04">
+                                <h5>YOUTUBE</h5>
+                                <p>
+                                    Ari Contrast,<br>
+                                    SP1000M vs. SP1000
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sProduct">
+            <h2><span>BEST</span> PRODUCT</h2>
+            <div class="line"></div>
+            <p class="subtext">많은 분들이 선택한, 베스트셀러 제품 입니다.</p>
+            <div class="wrap">
+
+                <div class="slick-slider slider-nav">
+                    
+                    <div>
+                        <h5>Perfect Extractor,</h5>
+                        <h4>AK CD-RIPPER MKⅡ</h4>
+                        <p>
+                            단한번의 터치만으로 아주쉽게 CD의 노래들을 <br>
+                            포터블 뮤직 플레이어로 가져올수 있었던 <br>
+                            AK CD-RIPPER의 두 번째 모델입니다.
+                        </p>
+                        <a href="product/recorder.html">
+                            자세히보기
+                        </a>
+                    </div>
+                    <div>
+                        <h5>Extreme POWER,</h5>
+                        <h4>KANN CUBE</h4>
+                        <p>
+                            고음질 기술과 고성능 저노이즈 앰프를 결합한 <br>
+                            KANN의 두번째 모델입니다. <br>
+                            기존 DAP에서 저노이즈 고출력에 모든 초점을 두었습니다.
+                        </p>
+                        <a href="product/mp3.html">
+                            자세히보기
+                        </a>
+                    </div>
+                    <div>
+                        <h5>The radically different sound</h5>
+                        <h4>SE100</h4>
+                        <p>
+                            A&amp;futura는 Ari에서 새롭게 선보이는 프리미엄 라인으로,<br>
+                            SE100은 제품을 잡는 그 순간부터 <br>
+                            진정한 프리미엄 하이파이에 대한 가치를 느끼실 수 있도록 만든 제품입니다.
+                        </p>
+                        <a href="product/mp3.html">
+                           
+                            자세히보기
+                        </a>
+                    </div>
+                </div>
+                <div class="slick-slider slider-for">
+                    <div>
+                        <img src="images/main/sProduct_img01.jpg" alt="AK CD-RIPPER MKⅡ 이미지" />
+                        <div class="textBox">
+                            <h5>Perfect Extractor,</h5>
+                            <h4>AK CD-RIPPER MKⅡ</h4>
+                            <p>
+                                단한번의 터치만으로 아주쉽게 CD의 노래들을 <br>
+                                포터블 뮤직 플레이어로 가져올수 있었던 <br>
+                                AK CD-RIPPER의 두 번째 모델입니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/main/sProduct_img02.jpg" alt="KANN CUBE 이미지" />
+                    </div>
+                    <div>
+                        <img src="images/main/sProduct_img03.jpg" alt="se100 이미지" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="support">
+            <h2><span>SUPPORT</span> CENTER</h2>
+            <div class="line"></div>
+            <p class="subtext">필요하신 사항을 신속하게 처리해드리겠습니다.</p>
+            <div class="supWrap">
+                <ul>
+                    <li class="sup01">
+                        <a href="customer/service.html">
+                            <h4>A/S 안내</h4>
+                            <p>기기에 문제가 생기셨다면<br>
+                                After Service를 받을수 있습니다. </p>
+                        </a>
+                    </li>
+                    <li class="sup02">
+                        <a href="tNav/login.html" class="loginerror">
+                            <h4>기기 등록</h4>
+                            <p>기기를 등록하면 보다 편리하게 <br>
+                                기기 서비스를 받을수 있습니다. </p>
+                        </a>
+                    </li>
+                    <li class="sup03">
+                        <a href="customer/answer.html">
+                            <h4>자주하는 질문</h4>
+                            <p>고객님들이 <br>
+                                자주하시는 질문과 답변입니다. </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="fWrap">
+            <div class="fTop">
+                <nav class="fNav">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="customer/answer.html">고객센터</a></li>
+                        <li><a href="#sitemapOpen" class="sitemapOpen">사이트맵</a></li>
+                    </ul>
+                </nav>
+                <div class="familySite">
+                    <button>
+                        <span class="text">패밀리사이트</span>
+                        <span class="icon">▼</span>
+                    </button>
+                    <ul>
+                        <li><a href="https://www.music-flo.com/">FLO</a></li>
+                        <li><a href="http://www.dreamuscompany.com/">Dreamus</a></li>
+                        <li><a href="https://www.astellnkern.com/kor/htm/main/">Astell&amp;Kern</a></li>
+                    </ul>
+                </div>
+
+                <div class="fBottom">
+                    <h1><img src="images/common/footer_logo.png" alt="하단로고"></h1>
+                    <p> 06664 서울시 서초구 방배로18길 5 <br>
+                        (주)ARI | 대표이사:아라영 | 사업자등록번호 : 214-XX-29222 <br>
+                        통신판매업 신고번호 : 동해-XX39호 COPYRIGH ARI ALL RIGHT RESERVED
+                    </p>
+                    <div class="snsIcon">
+                        <ul>
+                            <li class="sns01"><a href="https://www.instagram.com/?hl=ko"></a></li>
+                            <li class="sns02"><a href="https://twitter.com/?lang=ko"></a></li>
+                            <li class="sns03"><a href="https://www.youtube.com/"></a></li>
+                            <li class="sns04"><a href="https://ko-kr.facebook.com/"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="mobilebtn">
+        <a href="http://arim.dothome.co.kr">모바일버전</a>
+    </div>
+</body>
+
+</html>

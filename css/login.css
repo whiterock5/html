@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean');
+
+* { margin: 0; padding: 0; font-family: 'Noto Sans KR',sans-serif; font-size: 14px; color: #323132; }
+
+li { list-style: none; }
+a { text-decoration: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: none; }
+address{ font-style: normal; }
+fieldset { border: none; }
+legend{ position: absolute; left: -9999em; }
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{ cursor:pointer; }
+.away{ position: absolute; left: -9999em; }
+
+.deco { font-size: 10px; color:#999; }
+
+body { height: 800px; background-image: url(../images/tNav/body_bgpatten.png); background-color: #333; }
+
+header { width: 100%; min-width: 1280px; height: 150px; background-color: #fff; border-bottom: 1px solid #cccccc; position: relative;}
+.topLine { width: 100%; min-width: 1280px; height: 50px; border-bottom: 1px solid #cccccc; }
+.hTop { width: 1280px; height: 50px; margin: 0 auto; }
+.hTop ul{ width: 250px; height: 100%; padding-left: 100px; float: right; box-sizing: border-box; text-align: center; position: relative; }
+.hTop li{ float: left; line-height: 48px; width: 20px; height: 100%;}
+.hTop a { font-size: 12px; }
+.hTop .last { float: left;  width: 70px; height: 100%; text-align: right; }
+.hTop .last a{ display: block; width: 80px; height: 100%; color: #fa4616; background-image: url(../images/common/header_cart_icon.png); float: right; background-repeat: no-repeat; background-position: 20px 15px ; }
+
+
+.hBottom {  width: 1280px; height: 100px; margin: 0 auto; }
+.hBottom h1 {  width: 180px; height: 100%; padding-top: 25px; box-sizing: border-box;  margin: 0 auto;}
+
+
+
+.loginbox { width: 600px; height: 600px; box-sizing: border-box; border: 1px solid #999; margin: 0 auto; margin-top: 50px; background-color: #fff; }
+.loginbox span { display: block; width: 100%; text-align: center; font-size: 12px; color: #888; margin-top: 30px;}
+.loginbox h2 { display: block; width: 100%; text-align: center; font-size: 30px; margin-bottom: 50px;}
+
+.login { width: 100%; margin: 0 auto;  }
+.login #id{ display: block; width: 400px; height: 40px; margin: 0 auto; margin-bottom: 20px; padding: 5px;box-sizing: border-box; border: 1px solid #000; box-shadow: inset 1px 1px 1px #ccc; font-size: 12px;}
+.login #pw{ display: block; width: 400px; height: 40px; margin: 0 auto; margin-bottom: 30px; padding: 5px;box-sizing: border-box; border: 1px solid #000; box-shadow: inset 1px 1px 1px #ccc; font-size: 12px;}
+.submit { display: block; width: 400px; height: 40px; margin: 0 auto; border: 0; background-color: #fa4616; color :#fff; }
+
+.line { width: 30px; border-bottom: 1px solid #333; margin:20px auto; }
+
+.loginbox > p{ display: block; width: 100%; text-align: center; font-size: 12px; color:#888; margin-bottom: 10px; }
+.loginbox .join { display: block; width: 400px; height: 40px; margin: 0 auto; border: 0; background-color: #fa4616; }
+.loginbox .join a { display: block; width: 400px; height: 40px; line-height: 40px; color :#fff; }
+
+.loginbox .forget { width: 100%; height: 140px; padding-left:  100px; padding-right: 100px; box-sizing: border-box; margin-top: 30px; }
+.loginbox .id { width: 100%; height: 40px; position: relative; margin-bottom: 10px; }
+.loginbox .pw { width: 100%; height: 40px; position: relative; }
+
+.loginbox .forget img { float: left; width: 20px; height: 20px;  position: absolute; top: 8px; }
+.loginbox .forget p { display: block; float: left; width: 160px; height: 40px; line-height: 40px; margin-bottom: 10px; margin-left: 25px; }
+.loginbox .forget button { float: left; width: 120px; height: 40px; margin-bottom: 10px; margin-left: 90px; border:none; background-color: #fa4616;  }
+.loginbox .forget button a { display: block; width: 120px; height: 40px; color:#fff; font-size: 12px; line-height: 40px; }
+
+h3 { display: block; width: 100%; text-align: center; margin-top: 10px; }
+h3>a { font-size: 12px; font-weight: 400; }

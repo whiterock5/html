@@ -1,0 +1,37 @@
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.2
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+/* 제이쿼리가 자동으로 생성해줄 아이디명*/
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:260px;
+	right:calc(50% - 800px);
+	overflow:hidden;
+	width:40px;
+	height:40px;
+	border:none;
+	text-indent:100%;
+	background:url(../images/common/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../images/common/ui.totop.png) no-repeat left top;
+	width:40px;
+	height:40px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}

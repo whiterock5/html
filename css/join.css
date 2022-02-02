@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean');
+
+* { margin: 0; padding: 0; font-family: 'Noto Sans KR',sans-serif; font-size: 14px; color: #323132; }
+
+li { list-style: none; }
+a { text-decoration: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: none; }
+address{ font-style: normal; }
+fieldset { border: none; }
+legend{ position: absolute; left: -9999em; }
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{ cursor:pointer; }
+.away{ position: absolute; left: -9999px; }
+
+.deco { font-size: 10px; color:#999; }
+
+body { height: 800px; background-image: url(../images/tNav/body_bgpatten.png); background-color: #333; }
+
+header { width: 100%; min-width: 1280px; height: 150px; background-color: #fff; border-bottom: 1px solid #cccccc; position: relative;}
+.topLine { width: 100%; min-width: 1280px; height: 50px; border-bottom: 1px solid #cccccc; }
+.hTop { width: 1280px; height: 50px; margin: 0 auto; }
+.hTop ul{ width: 250px; height: 100%; padding-left: 100px; float: right; box-sizing: border-box; text-align: center; position: relative; }
+.hTop li{ float: left; line-height: 48px; width: 20px; height: 100%;}
+.hTop a { font-size: 12px; }
+.hTop .last { float: left;  width: 70px; height: 100%; text-align: right; }
+.hTop .last a{ display: block; width: 80px; height: 100%; color: #fa4616; background-image: url(../images/common/header_cart_icon.png); float: right; background-repeat: no-repeat; background-position: 20px 15px ; }
+
+
+.hBottom {  width: 1280px; height: 100px; margin: 0 auto; }
+.hBottom h1 {  width: 180px; height: 100%; padding-top: 25px; box-sizing: border-box;  margin: 0 auto;}
+
+
+.joinbox { width: 880px; margin: 0 auto; overflow: hidden; border: 1px solid #999; background-color: #fff; margin-top: 50px; padding: 0 50px; box-sizing: border-box; margin-bottom: 120px;}
+
+.joinbox h2 { font-size: 30px; margin-top: 30px; margin-bottom:30px; width:300px; border-bottom: 1px solid #333; padding-bottom: 15px; box-sizing: border-box; }
+
+.joinbox .clause { height: 330px;  }
+.joinbox .readme { overflow-y: scroll; height: 280px; overflow-x: hidden; border: 1px solid #ccc; margin-bottom: 10px; padding: 10px;box-sizing: border-box; }
+.joinbox #agree { width: 15px; height: 15px; position: relative; top: 3px; }
+.joinbox .clause  label { font-size: 12px; }
+
+.joinbox .birth { width: 880px; }
+
+.joinbox h3 { float: left; width: 780px; height: 50px; background-image: url(../images/tNav/join_line.png); background-repeat: no-repeat; line-height: 50px; padding-left: 20px; font-size: 16px; margin-bottom: 20px; }
+
+.joinbox h4 { padding-left: 20px; float: left; width: 200px; height: 30px; text-align: left; margin-bottom: 30px; line-height: 30px; box-sizing: border-box;}
+
+.joinbox .box01 { float: left; width: 300px; height: 30px; margin-bottom: 30px; margin-right: 20px; box-sizing: border-box; padding: 5px; }
+.joinbox .box02 { float: left; width: 300px; height: 30px; margin-bottom: 30px; margin-right: 270px; box-sizing: border-box; padding: 5px; }
+.joinbox .box03 { float: left; width: 72px; height: 30px; margin-bottom: 30px; margin-right: 5px; box-sizing: border-box; padding: 5px;}
+.joinbox .box04 { float: left; width: 440px; height: 30px; margin-bottom: 30px; margin-right: 5px; box-sizing: border-box; padding: 5px;}
+.joinbox .detail .box05 { float: left; width: 100px; height: 30px; box-sizing: border-box; margin-right: 20px; padding-left:10px; margin-bottom: 30px;}
+.joinbox .detail .last { float: left; width: 100px; height: 30px; box-sizing: border-box; margin-right: 20px; padding-left:10px; margin-bottom: 30px; margin-right: 200px;}
+
+
+.joinbox .detail .box06 { float: left; width: 267px; height: 30px; box-sizing: border-box; padding-left:10px; margin-bottom: 30px; }
+
+.joinbox .address { height: 150px; line-height: 150px; }
+
+.joinbox fieldset { float: left; height: 30px; line-height: 30px; width: 570px; margin-bottom: 30px;}
+
+.joinbox .label01 { float: left; height: 30px; line-height: 30px; margin-right: 15px; margin-bottom: 30px;}
+.joinbox .label02 { height: 30px; line-height: 30px; margin-left:  10px; margin-right: 20px;}
+.joinbox .label03 { float: left; height: 30px; line-height: 30px; margin-right: 300px; margin-bottom: 30px;}
+
+
+
+.joinbox .btn01 { float: left; width: 120px; height: 30px; text-align: center; line-height: 30px; background-color: #fa4616; color: #fff; border: none; font-size: 12px; margin-bottom: 30px; margin-right: 130px; }
+
+
+.joinbox li p { float: left; height: 30px; text-align: center; line-height: 30px; margin-right: 20px;}
+.joinbox > input { width: 410px; height: 50px; color:#fff; background-color: #fa4616; border:none; margin: 0 auto; margin: 50px 185px 30px 185px ;}
+.joinbox > button { width: 410px; height: 50px; background-color: #666; border:none;margin: 0 auto; margin: 0px 185px 50px 185px ;}
+.joinbox > button> a{ display: block; width: 100%; height: 100%; color: #fff; line-height: 50px;}
